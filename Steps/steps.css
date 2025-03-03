@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 60px;
+    margin-top: 20%;
+}
+
+.btns{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+div.circles{
+    background-color: antiquewhite;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.circles span {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    color: white;
+    font-size: 23.5px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    content-visibility: hidden;
+}
+
+span.dot1{
+    background-color:gray;
+}
+
+.btns button{
+    margin-top: 20px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    border-width: 0.5px;
+    border-color: rgb(0, 150, 20);
+}

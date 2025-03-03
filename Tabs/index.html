@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "index.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs Page</title>
+</head>
+<body>
+    <div class = "container">
+        <div id = "top-txt">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magna aliquyam erat, sed diam voluptua. </p>
+        </div>
+        <div id = "bottom-els">
+            <div id = "photo">
+                <img src = "picture.jpg" alt = "A great photo of mountains">
+            </div>
+            <div id="about">
+                <div id = "btn-container">
+                    <button class="tab-btn active" data-id="history"> History </button>
+                    <button class="tab-btn" data-id="vision"> Vision </button>
+                    <button class="tab-btn" data-id="goals"> Goals </button>
+                </div>
+                <div id="about-content">
+                    <!--single item-->
+                    <div class="content active" id="history">
+                        <h3>History</h3>
+                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                        consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
+                        feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+                        augue duis dolore te feugait nulla facilisi.</p>
+                    </div>
+                    <!--end of single item-->
+                    <!--single item-->
+                    <div class="content" id="vision">
+                        <h3>Vision</h3>
+                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                        ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                        labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
+                    <!--end of single item-->
+                    <!--single item-->
+                    <div class="content" id="goals">
+                        <h3>Goals</h3>
+                        <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                        est Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <!--end of single item-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
