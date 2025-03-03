@@ -1,2 +1,3 @@
 # LittleProjects
-Small projects and code snippets that I made
+Small projects and code snippets that I made for practicing my abilities
+
